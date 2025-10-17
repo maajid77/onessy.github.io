@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | ONESSY</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">ONESSY</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <h1>About ONESSY</h1>
+    <p>
+      ONESSY is a premium streetwear and casual fashion brand that blends luxury minimalism with the raw energy of urban culture.
+      Every piece we create is made for those who value authenticity, confidence, and style with meaning.
+    </p>
+
+    <h2>Our Vision</h2>
+    <p>
+      We position ourselves at the intersection of high-end design and street-level credibility.
+      Our identity combines youthful energy, refined aesthetics, and contemporary culture.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ONESSY</p>
+  </footer>
+
+</body>
+</html>
