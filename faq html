@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ | ONESSY</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">ONESSY</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="faq.html" class="active">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="faq-section">
+    <h1>Frequently Asked Questions</h1>
+
+    <div class="faq-item">
+      <h3>What is your return policy?</h3>
+      <p>We accept returns within 14 days of delivery if the item is unused and in original condition.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do you offer international shipping?</h3>
+      <p>Yes, we ship worldwide. Shipping rates will vary based on your region.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How can I track my order?</h3>
+      <p>Once your order is shipped, you'll receive a confirmation email with tracking details.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ONESSY</p>
+  </footer>
+
+</body>
+</html>
