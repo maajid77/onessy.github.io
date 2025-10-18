@@ -1,137 +1,107 @@
-/* ===== GLOBAL RESET ===== */
-* {
+/* Global Styles */
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #0d0f12; /* Solid dark */
+  color: #f1f1f1; /* Light text */
 }
 
-/* ===== NAVBAR ===== */
+/* Navbar */
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111723; /* Dark navy/charcoal */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #fff;
-  border-bottom: 1px solid #eee;
+  padding: 1rem 2rem;
+  z-index: 1000;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 1.5rem;
+  margin: 0;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
-  font-size: 16px;
+  color: #d6d6d6;
+  transition: 0.3s;
 }
 
+.nav-links a:hover,
 .nav-links a.active {
-  font-weight: bold;
-  text-decoration: underline;
+  color: #1e3a8a; /* Navy Blue Accent */
 }
 
-/* ===== HERO SECTION (Home) ===== */
-.hero {
-  text-align: center;
-  padding: 120px 20px;
-  background-color: #f0f0f0;
+/* Page Sections */
+section {
+  padding: 7rem 2rem 3rem; /* Extra top space for fixed navbar */
 }
 
-.hero h1 {
-  font-size: 42px;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.cta-button {
-  padding: 12px 24px;
-  text-decoration: none;
-  border: 1px solid #333;
-  background-color: #333;
-  color: white;
-  border-radius: 4px;
-}
-
-/* ===== SHOP PAGE ===== */
-.shop-header {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.product-grid {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  padding: 40px;
-}
-
-/* ===== ABOUT PAGE ===== */
-.about-section {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 20px;
-  text-align: center;
-}
-
-/* ===== CONTACT PAGE ===== */
-.contact-section {
-  max-width: 600px;
-  margin: 60px auto;
-  padding: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-input, textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
+/* Buttons */
 button {
-  padding: 12px;
-  background-color: #333;
+  background-color: #1e3a8a; /* Navy Accent */
   color: white;
   border: none;
-  border-radius: 4px;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-/* ===== FAQ PAGE ===== */
-.faq-section {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 20px;
+button:hover {
+  background-color: #2a4da3; /* Slightly lighter navy */
 }
 
-.faq-item {
-  margin-bottom: 30px;
-}
-
-/* ===== FOOTER ===== */
+/* Footer */
 footer {
   text-align: center;
-  padding: 40px 20px;
-  margin-top: 80px;
-  border-top: 1px solid #eee;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  background-color: #111723;
+  color: #bfbfbf;
+}
+
+/* Product Grid */
+#products-container,
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.product-item {
+  background-color: #1a1d24;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+/* Links */
+a {
+  color: #1e3a8a;
+}
+a:hover {
+  color: #2a4da3;
 }
