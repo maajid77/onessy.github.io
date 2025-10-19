@@ -1,17 +1,7 @@
 [
   {
-    "name": "Oversized Hoodie",
-    "price": "$89",
-    "image": "https://via.placeholder.com/300"
-  },
-  {
-    "name": "Premium Tee",
-    "price": "$49",
-    "image": "https://via.placeholder.com/300"
-  },
-  {
-    "name": "Streetwear Jacket",
-    "price": "$129",
-    "image": "https://via.placeholder.com/300"
+    "name": "Gray and White Fur Boxy Sweatshirt",
+    "price": "800 EGP",
+    "image": "https://maajid77.github.io/onessy.github.io/gray-white-boxy-sweatshirt.jpg"
   }
 ]
